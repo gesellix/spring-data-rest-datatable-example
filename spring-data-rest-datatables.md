@@ -53,6 +53,8 @@ The Spring Data REST library works together with the core Spring Data to expose 
 
 A full list of features and documentation found here: http://www.springsource.org/spring-data/rest
 
+Some defaults may be set via the RepositoryRestConfiguration class, see RepositoryRestMvcConfiguration for details.
+
 So how does this work in practice?  First, let's include the dependency for Spring Data - REST in the [pom.xml](https://github.com/gcase/spring-data-rest-datatable-example/blob/master/pom.xml):
 
 ```xml
